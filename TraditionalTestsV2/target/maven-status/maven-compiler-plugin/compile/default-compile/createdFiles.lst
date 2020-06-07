@@ -1,0 +1,8 @@
+com\common\util\Reporter.class
+com\common\util\BrowserType.class
+com\common\util\WebDriverBuilder$1.class
+com\common\util\WebDriverBuilder.class
+com\applifashions\pages\ProductDetailsPage.class
+com\common\util\listener\TestListener.class
+com\applifashions\pages\BasePage.class
+com\applifashions\pages\HomePage.class
