@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="581cb02a-30f9-4b9f-bc9d-2c575812ee6a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TraditionalTestsSuiteV1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/applifashions/pages/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/applifashions/pages/ProductDetailsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/common/util/BrowserType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/common/util/Reporter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/common/util/WebDriverBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/common/util/listener/TestListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/applifashion/test/Task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/applifashion/test/Task2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/applifashion/test/Task3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/util/BaseTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="581cb02a-30f9-4b9f-bc9d-2c575812ee6a" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -82,8 +67,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/applifashion/test/Task2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="49" column="81" selection-start-line="49" selection-start-column="81" selection-end-line="49" selection-end-column="81" />
+            <state relative-caret-position="443">
+              <caret line="69" column="1" lean-forward="true" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#579#601#0" expanded="true" />
@@ -342,7 +327,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591565097606" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591565127228" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -638,8 +623,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/applifashion/test/Task2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="49" column="81" selection-start-line="49" selection-start-column="81" selection-end-line="49" selection-end-column="81" />
+        <state relative-caret-position="443">
+          <caret line="69" column="1" lean-forward="true" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#579#601#0" expanded="true" />
