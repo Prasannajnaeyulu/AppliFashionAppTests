@@ -46,7 +46,7 @@
             <version>3.0.0-M4</version>
             <configuration>
                 <suiteXmlFiles>
-                    <suiteXmlFile>TraditionalTestsSuiteV1.xml</suiteXmlFile>
+                    <suiteXmlFile>TraditionalTestsSuiteV2.xml</suiteXmlFile>
                 </suiteXmlFiles>
             </configuration>
         </plugin>

@@ -41,8 +41,10 @@ public class Task2 extends BaseTest {
         lsExpectedProduct2Prices.add("$200.00");
         lsExpectedProduct2Prices.add(null);
 
-        assertThat(lsActualProduct1Prices, equalTo(lsExpectedProduct1Prices));
-        assertThat(lsActualProduct2Prices, equalTo(lsExpectedProduct2Prices));
+        assertThat("The actual and expected price of product1 should be equal", lsActualProduct1Prices,
+                equalTo(lsExpectedProduct1Prices));
+        assertThat("The actual and expected price of product2 should be equal", lsActualProduct2Prices,
+                equalTo(lsExpectedProduct2Prices));
 
 
         //verify display of cart and add to compare and favorite icons when windowsize is greater than 800
