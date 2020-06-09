@@ -21,7 +21,7 @@ public class Reporter {
     public boolean hackathonReporter(int task, String testName, String domId, String browser, String viewport, String device, boolean comparisonResult) {
         BufferedWriter writer=null;
         try{
-             writer = new BufferedWriter(new FileWriter("Traditional-V1-TestResults.txt", true));
+             writer = new BufferedWriter(new FileWriter("Traditional-V2-TestResults.txt", true));
             writer.write("Task: " + task + ", Test Name: " + testName +", DOM Id: " + domId + ", Browser: " + browser
                     + ", Viewport: " + viewport + ", Device: " + device + ", Status: " + (comparisonResult ? "Pass" : "Fail"));
             writer.newLine();
