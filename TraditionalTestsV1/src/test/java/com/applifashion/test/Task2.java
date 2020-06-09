@@ -16,7 +16,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.Is.is;
 
 public class Task2 extends BaseTest {
-    @Test(description = "Verify filter shoes by color and the product display")
+    @Test(testName = "Shopping Experience Test", description = "Verify filter shoes by color and the product display")
     public void shoppingExperienceTest(){
         int i=0;
         Map<String, List<String>> mapActualProductPrice = new HashMap<String, List<String>>();
@@ -63,10 +63,15 @@ public class Task2 extends BaseTest {
             addToCompare = element.findElement(By.xpath(addToCompareSelector)).isDisplayed();
             addToFavorite = element.findElement(By.xpath(addToFavoriteSelector)).isDisplayed();
             addToCart = element.findElement(By.xpath(addToCartSelector)).isDisplayed();
-
-            assertThat("add to compare icon is not displayed", addToCompare, is(true));
-            assertThat("add to favorite icon is not displayed", addToFavorite, is(true));
-            assertThat("add to cart icon is not displayed", addToCart, is(true));
+            assertThat("add to compare icon is not displayed", reporter.hackathonReporter(2,
+                    "Shopping Experience Test", addToCompareSelector,browser,
+                    width+"X"+height,"laptop",addToCompare), is(true));
+            assertThat("add to favorite icon is not displayed", reporter.hackathonReporter(2,
+                    "Shopping Experience Test", addToFavoriteSelector,browser,
+                    width+"X"+height,"laptop", addToFavorite), is(true));
+            assertThat("add to cart icon is not displayed", reporter.hackathonReporter(2,
+                    "Shopping Experience Test", addToCartSelector,browser,
+                    width+"X"+height,"laptop", addToCart), is(true));
         }
     }
 }
