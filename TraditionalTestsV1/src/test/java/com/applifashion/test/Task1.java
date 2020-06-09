@@ -16,12 +16,12 @@ public class Task1 extends BaseTest {
         HomePage homePage = new HomePage(driver);
         Dimension windowSize = driver.manage().window().getSize();
         if(windowSize.getWidth() > 800) {
-            assertThat(reporter.hackathonReporter(1,"Cross Device Elements Test 1",
+            assertThat("Search Box Should be displayed", reporter.hackathonReporter(1,"Cross Device Elements Test 1",
                     "INPUTtext____42",browser, width+"X"+height,"laptop",
                     homePage.isElementDisplayed(homePage.searchBox)), is(true));
         }
         else {
-            assertThat(reporter.hackathonReporter(1,"Cross Device Elements Test 1",
+            assertThat("Search Box Should NOT be Displayed", reporter.hackathonReporter(1,"Cross Device Elements Test 1",
                     "INPUTtext____42", browser, width+"X"+height,"laptop",
                     homePage.isElementDisplayed(homePage.searchBox)), is(false));
         }
@@ -32,8 +32,8 @@ public class Task1 extends BaseTest {
         HomePage homePage = new HomePage(driver);
         Dimension windowSize = driver.manage().window().getSize();
         if(windowSize.getWidth() > 800)
-            assertThat(reporter.hackathonReporter(1,"Cross Device Elements Test 2", "ti-filter",browser, width+"X"+height,"laptop",homePage.isElementDisplayed(homePage.filterImageToggle)), is(false));
+            assertThat("filter Image to filter products should NOT be displayed", reporter.hackathonReporter(1,"Cross Device Elements Test 2", "ti-filter",browser, width+"X"+height,"laptop",homePage.isElementDisplayed(homePage.filterImageToggle)), is(false));
         else
-            assertThat(reporter.hackathonReporter(1,"Cross Device Elements Test 2", "ti-filter",browser, width+"X"+height,"laptop",homePage.isElementDisplayed(homePage.filterImageToggle)), is(true));
+            assertThat("filter Image to filter products should be displayed", reporter.hackathonReporter(1,"Cross Device Elements Test 2", "ti-filter",browser, width+"X"+height,"laptop",homePage.isElementDisplayed(homePage.filterImageToggle)), is(true));
     }
 }
