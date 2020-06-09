@@ -1,0 +1,78 @@
+Task: 1, Test Name: Cross Device Elements Test 1, DOM Id: INPUTtext____42, Browser: chrome, Viewport: 1200X700, Device: laptop, Status: Pass
+Task: 1, Test Name: Cross Device Elements Test 1, DOM Id: INPUTtext____42, Browser: chrome, Viewport: 700X700, Device: laptop, Status: Fail
+Task: 1, Test Name: Cross Device Elements Test 1, DOM Id: INPUTtext____42, Browser: firefox, Viewport: 700X700, Device: laptop, Status: Fail
+Task: 1, Test Name: Cross Device Elements Test 1, DOM Id: INPUTtext____42, Browser: firefox, Viewport: 1200X700, Device: laptop, Status: Pass
+Task: 1, Test Name: Cross Device Elements Test 2, DOM Id: ti-filter, Browser: chrome, Viewport: 1200X700, Device: laptop, Status: Fail
+Task: 1, Test Name: Cross Device Elements Test 2, DOM Id: ti-filter, Browser: chrome, Viewport: 700X700, Device: laptop, Status: Pass
+Task: 1, Test Name: Cross Device Elements Test 2, DOM Id: ti-filter, Browser: firefox, Viewport: 1200X700, Device: laptop, Status: Fail
+Task: 1, Test Name: Cross Device Elements Test 2, DOM Id: ti-filter, Browser: firefox, Viewport: 700X700, Device: laptop, Status: Pass
+Task: 2, Test Name: Shopping Experience Test, DOM Id: .//span[text()="Add to compare"]/parent::a, Browser: firefox, Viewport: 1200X700, Device: laptop, Status: Fail
+Task: 2, Test Name: Shopping Experience Test, DOM Id: .//span[text()="Add to compare"]/parent::a, Browser: chrome, Viewport: 700X700, Device: laptop, Status: Pass
+Task: 2, Test Name: Shopping Experience Test, DOM Id: .//span[text()="Add to favorites"]/parent::a, Browser: chrome, Viewport: 700X700, Device: laptop, Status: Pass
+Task: 2, Test Name: Shopping Experience Test, DOM Id: .//span[text()="Add to cart"]/parent::a, Browser: chrome, Viewport: 700X700, Device: laptop, Status: Pass
+Task: 2, Test Name: Shopping Experience Test, DOM Id: .//span[text()="Add to compare"]/parent::a, Browser: chrome, Viewport: 1200X700, Device: laptop, Status: Pass
+Task: 2, Test Name: Shopping Experience Test, DOM Id: .//span[text()="Add to favorites"]/parent::a, Browser: chrome, Viewport: 1200X700, Device: laptop, Status: Pass
+Task: 2, Test Name: Shopping Experience Test, DOM Id: .//span[text()="Add to cart"]/parent::a, Browser: chrome, Viewport: 1200X700, Device: laptop, Status: Pass
+Task: 2, Test Name: Shopping Experience Test, DOM Id: .//span[text()="Add to compare"]/parent::a, Browser: chrome, Viewport: 700X700, Device: laptop, Status: Pass
+Task: 2, Test Name: Shopping Experience Test, DOM Id: .//span[text()="Add to favorites"]/parent::a, Browser: chrome, Viewport: 700X700, Device: laptop, Status: Pass
+Task: 2, Test Name: Shopping Experience Test, DOM Id: .//span[text()="Add to cart"]/parent::a, Browser: chrome, Viewport: 700X700, Device: laptop, Status: Pass
+Task: 2, Test Name: Shopping Experience Test, DOM Id: .//span[text()="Add to compare"]/parent::a, Browser: firefox, Viewport: 700X700, Device: laptop, Status: Pass
+Task: 2, Test Name: Shopping Experience Test, DOM Id: .//span[text()="Add to favorites"]/parent::a, Browser: firefox, Viewport: 700X700, Device: laptop, Status: Pass
+Task: 2, Test Name: Shopping Experience Test, DOM Id: .//span[text()="Add to cart"]/parent::a, Browser: firefox, Viewport: 700X700, Device: laptop, Status: Pass
+Task: 2, Test Name: Shopping Experience Test, DOM Id: .//span[text()="Add to compare"]/parent::a, Browser: chrome, Viewport: 1200X700, Device: laptop, Status: Pass
+Task: 2, Test Name: Shopping Experience Test, DOM Id: .//span[text()="Add to favorites"]/parent::a, Browser: chrome, Viewport: 1200X700, Device: laptop, Status: Pass
+Task: 2, Test Name: Shopping Experience Test, DOM Id: .//span[text()="Add to cart"]/parent::a, Browser: chrome, Viewport: 1200X700, Device: laptop, Status: Pass
+Task: 2, Test Name: Shopping Experience Test, DOM Id: .//span[text()="Add to compare"]/parent::a, Browser: firefox, Viewport: 700X700, Device: laptop, Status: Pass
+Task: 2, Test Name: Shopping Experience Test, DOM Id: .//span[text()="Add to favorites"]/parent::a, Browser: firefox, Viewport: 700X700, Device: laptop, Status: Pass
+Task: 2, Test Name: Shopping Experience Test, DOM Id: .//span[text()="Add to cart"]/parent::a, Browser: firefox, Viewport: 700X700, Device: laptop, Status: Pass
+Task: 3, Test Name: Product Details Test, DOM Id: shoe_img, Browser: chrome, Viewport: 1200X700, Device: laptop, Status: Pass
+Task: 3, Test Name: Product Details Test, DOM Id: quantity_1, Browser: chrome, Viewport: 1200X700, Device: laptop, Status: Pass
+Task: 3, Test Name: Product Details Test, DOM Id: .btn_add_to_cart, Browser: chrome, Viewport: 1200X700, Device: laptop, Status: Pass
+Task: 3, Test Name: Product Details Test, DOM Id: shoe_img, Browser: firefox, Viewport: 1200X700, Device: laptop, Status: Pass
+Task: 3, Test Name: Product Details Test, DOM Id: quantity_1, Browser: firefox, Viewport: 1200X700, Device: laptop, Status: Pass
+Task: 3, Test Name: Product Details Test, DOM Id: .btn_add_to_cart, Browser: firefox, Viewport: 1200X700, Device: laptop, Status: Pass
+Task: 3, Test Name: Product Details Test, DOM Id: shoe_img, Browser: firefox, Viewport: 700X700, Device: laptop, Status: Pass
+Task: 3, Test Name: Product Details Test, DOM Id: quantity_1, Browser: firefox, Viewport: 700X700, Device: laptop, Status: Pass
+Task: 3, Test Name: Product Details Test, DOM Id: .btn_add_to_cart, Browser: firefox, Viewport: 700X700, Device: laptop, Status: Pass
+Task: 3, Test Name: Product Details Test, DOM Id: shoe_img, Browser: chrome, Viewport: 700X700, Device: laptop, Status: Pass
+Task: 3, Test Name: Product Details Test, DOM Id: quantity_1, Browser: chrome, Viewport: 700X700, Device: laptop, Status: Pass
+Task: 3, Test Name: Product Details Test, DOM Id: .btn_add_to_cart, Browser: chrome, Viewport: 700X700, Device: laptop, Status: Pass
+Task: 1, Test Name: Cross Device Elements Test 1, DOM Id: INPUTtext____42, Browser: chrome, Viewport: 1200X700, Device: laptop, Status: Pass
+Task: 3, Test Name: Product Details Test, DOM Id: shoe_img, Browser: chrome, Viewport: 1200X700, Device: laptop, Status: Pass
+Task: 3, Test Name: Product Details Test, DOM Id: quantity_1, Browser: chrome, Viewport: 1200X700, Device: laptop, Status: Pass
+Task: 3, Test Name: Product Details Test, DOM Id: .btn_add_to_cart, Browser: chrome, Viewport: 1200X700, Device: laptop, Status: Pass
+Task: 2, Test Name: Shopping Experience Test, DOM Id: .//span[text()="Add to compare"]/parent::a, Browser: chrome, Viewport: 1200X700, Device: laptop, Status: Pass
+Task: 2, Test Name: Shopping Experience Test, DOM Id: .//span[text()="Add to favorites"]/parent::a, Browser: chrome, Viewport: 1200X700, Device: laptop, Status: Pass
+Task: 2, Test Name: Shopping Experience Test, DOM Id: .//span[text()="Add to cart"]/parent::a, Browser: chrome, Viewport: 1200X700, Device: laptop, Status: Pass
+Task: 2, Test Name: Shopping Experience Test, DOM Id: .//span[text()="Add to compare"]/parent::a, Browser: chrome, Viewport: 1200X700, Device: laptop, Status: Pass
+Task: 2, Test Name: Shopping Experience Test, DOM Id: .//span[text()="Add to favorites"]/parent::a, Browser: chrome, Viewport: 1200X700, Device: laptop, Status: Pass
+Task: 2, Test Name: Shopping Experience Test, DOM Id: .//span[text()="Add to cart"]/parent::a, Browser: chrome, Viewport: 1200X700, Device: laptop, Status: Pass
+Task: 1, Test Name: Cross Device Elements Test 2, DOM Id: ti-filter, Browser: chrome, Viewport: 1200X700, Device: laptop, Status: Fail
+Task: 1, Test Name: Cross Device Elements Test 1, DOM Id: INPUTtext____42, Browser: chrome, Viewport: 700X700, Device: laptop, Status: Fail
+Task: 3, Test Name: Product Details Test, DOM Id: shoe_img, Browser: chrome, Viewport: 700X700, Device: laptop, Status: Pass
+Task: 3, Test Name: Product Details Test, DOM Id: quantity_1, Browser: chrome, Viewport: 700X700, Device: laptop, Status: Pass
+Task: 3, Test Name: Product Details Test, DOM Id: .btn_add_to_cart, Browser: chrome, Viewport: 700X700, Device: laptop, Status: Pass
+Task: 2, Test Name: Shopping Experience Test, DOM Id: .//span[text()="Add to compare"]/parent::a, Browser: chrome, Viewport: 700X700, Device: laptop, Status: Pass
+Task: 2, Test Name: Shopping Experience Test, DOM Id: .//span[text()="Add to favorites"]/parent::a, Browser: chrome, Viewport: 700X700, Device: laptop, Status: Pass
+Task: 2, Test Name: Shopping Experience Test, DOM Id: .//span[text()="Add to cart"]/parent::a, Browser: chrome, Viewport: 700X700, Device: laptop, Status: Pass
+Task: 2, Test Name: Shopping Experience Test, DOM Id: .//span[text()="Add to compare"]/parent::a, Browser: chrome, Viewport: 700X700, Device: laptop, Status: Pass
+Task: 2, Test Name: Shopping Experience Test, DOM Id: .//span[text()="Add to favorites"]/parent::a, Browser: chrome, Viewport: 700X700, Device: laptop, Status: Pass
+Task: 2, Test Name: Shopping Experience Test, DOM Id: .//span[text()="Add to cart"]/parent::a, Browser: chrome, Viewport: 700X700, Device: laptop, Status: Pass
+Task: 1, Test Name: Cross Device Elements Test 2, DOM Id: ti-filter, Browser: chrome, Viewport: 700X700, Device: laptop, Status: Pass
+Task: 1, Test Name: Cross Device Elements Test 1, DOM Id: INPUTtext____42, Browser: firefox, Viewport: 1200X700, Device: laptop, Status: Pass
+Task: 3, Test Name: Product Details Test, DOM Id: shoe_img, Browser: firefox, Viewport: 1200X700, Device: laptop, Status: Pass
+Task: 3, Test Name: Product Details Test, DOM Id: quantity_1, Browser: firefox, Viewport: 1200X700, Device: laptop, Status: Pass
+Task: 3, Test Name: Product Details Test, DOM Id: .btn_add_to_cart, Browser: firefox, Viewport: 1200X700, Device: laptop, Status: Pass
+Task: 2, Test Name: Shopping Experience Test, DOM Id: .//span[text()="Add to compare"]/parent::a, Browser: firefox, Viewport: 1200X700, Device: laptop, Status: Fail
+Task: 1, Test Name: Cross Device Elements Test 2, DOM Id: ti-filter, Browser: firefox, Viewport: 1200X700, Device: laptop, Status: Fail
+Task: 1, Test Name: Cross Device Elements Test 1, DOM Id: INPUTtext____42, Browser: firefox, Viewport: 700X700, Device: laptop, Status: Fail
+Task: 3, Test Name: Product Details Test, DOM Id: shoe_img, Browser: firefox, Viewport: 700X700, Device: laptop, Status: Pass
+Task: 3, Test Name: Product Details Test, DOM Id: quantity_1, Browser: firefox, Viewport: 700X700, Device: laptop, Status: Pass
+Task: 3, Test Name: Product Details Test, DOM Id: .btn_add_to_cart, Browser: firefox, Viewport: 700X700, Device: laptop, Status: Pass
+Task: 2, Test Name: Shopping Experience Test, DOM Id: .//span[text()="Add to compare"]/parent::a, Browser: firefox, Viewport: 700X700, Device: laptop, Status: Pass
+Task: 2, Test Name: Shopping Experience Test, DOM Id: .//span[text()="Add to favorites"]/parent::a, Browser: firefox, Viewport: 700X700, Device: laptop, Status: Pass
+Task: 2, Test Name: Shopping Experience Test, DOM Id: .//span[text()="Add to cart"]/parent::a, Browser: firefox, Viewport: 700X700, Device: laptop, Status: Pass
+Task: 2, Test Name: Shopping Experience Test, DOM Id: .//span[text()="Add to compare"]/parent::a, Browser: firefox, Viewport: 700X700, Device: laptop, Status: Pass
+Task: 2, Test Name: Shopping Experience Test, DOM Id: .//span[text()="Add to favorites"]/parent::a, Browser: firefox, Viewport: 700X700, Device: laptop, Status: Pass
+Task: 2, Test Name: Shopping Experience Test, DOM Id: .//span[text()="Add to cart"]/parent::a, Browser: firefox, Viewport: 700X700, Device: laptop, Status: Pass
+Task: 1, Test Name: Cross Device Elements Test 2, DOM Id: ti-filter, Browser: firefox, Viewport: 700X700, Device: laptop, Status: Pass

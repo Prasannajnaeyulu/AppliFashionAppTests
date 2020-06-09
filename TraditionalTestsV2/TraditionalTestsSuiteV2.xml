@@ -1,7 +1,7 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 <suite name="TraditionalTestsSuiteV1" verbose="1" parallel="classes" thread-count="4">
     <test name="SmokeTest-Chrome-1">
-        <parameter name="URL" value="https://demo.applitools.com/gridHackathonV1.html"/>
+        <parameter name="URL" value="https://demo.applitools.com/gridHackathonV2.html"/>
         <parameter name="browser" value="chrome"/>
         <parameter name="width" value="1200"/>
         <parameter name="height" value="700"/>
