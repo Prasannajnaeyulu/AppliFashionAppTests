@@ -31,9 +31,9 @@ public class Task3 extends BaseTest {
 
         //Verify Product details
         ProductDetailsPage productDetails = new ProductDetailsPage(driver);
-        assertThat("The shoe image should be displayed", reporter.hackathonReporter(3,"Product Details Test", "shoe_img",browser, width+"X"+height,"laptop",productDetails.shoeImageDisplayed()), is(true));
-        assertThat("Quantity select option should be displayed", reporter.hackathonReporter(3,"Product Details Test", "quantity_1",browser, width+"X"+height,"laptop",productDetails.isElementDisplayed(By.id("quantity_1"))), is(true));
-        assertThat("Add to Cart Button should be displayed", reporter.hackathonReporter(3,"Product Details Test", ".btn_add_to_cart",browser, width+"X"+height,"laptop",productDetails.isElementDisplayed(By.cssSelector(".btn_add_to_cart"))), is(true));
+        assertThat("The shoe image should be displayed", reporter.hackathonReporter(3,"Product Details Test", "shoe_img",browser, width+"X"+height,this.platform,productDetails.shoeImageDisplayed()), is(true));
+        assertThat("Quantity select option should be displayed", reporter.hackathonReporter(3,"Product Details Test", "quantity_1",browser, width+"X"+height,this.platform,productDetails.isElementDisplayed(By.id("quantity_1"))), is(true));
+        assertThat("Add to Cart Button should be displayed", reporter.hackathonReporter(3,"Product Details Test", ".btn_add_to_cart",browser, width+"X"+height,this.platform,productDetails.isElementDisplayed(By.cssSelector(".btn_add_to_cart"))), is(true));
         assertThat(productDetails.getText(productDetails.newPrice), is("$33.00"));
         assertThat(productDetails.getText(productDetails.oldPrice), is("$48.00"));
         assertThat(productDetails.getText(productDetails.discount), is("-30% discount"));

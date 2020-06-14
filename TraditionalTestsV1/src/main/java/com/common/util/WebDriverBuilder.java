@@ -11,7 +11,6 @@ import org.openqa.selenium.edge.EdgeDriverService;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
-import org.openqa.selenium.firefox.GeckoDriverService;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 import java.io.File;
@@ -19,6 +18,7 @@ import java.io.File;
 public class WebDriverBuilder {
     private Capabilities capabilities;
     private BrowserType browserType;
+    private String platform;
     private int browserWidth;
     private int browserHeight;
     private WebDriver driver;
@@ -47,6 +47,11 @@ public class WebDriverBuilder {
 
     public WebDriverBuilder setBrowserHeight(int browserHeight){
         this.browserHeight = browserHeight;
+        return this;
+    }
+
+    public WebDriverBuilder setPlatform(String platform){
+        this.platform = platform;
         return this;
     }
 

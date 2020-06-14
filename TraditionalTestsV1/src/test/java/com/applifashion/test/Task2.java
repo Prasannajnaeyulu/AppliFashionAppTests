@@ -51,7 +51,7 @@ public class Task2 extends BaseTest {
             Boolean addToCompare, addToFavorite, addToCart;
             String addToCompareSelector, addToFavoriteSelector, addToCartSelector;
 
-            if(driver.manage().window().getSize().getWidth() > 800) {
+            if(this.platform.equalsIgnoreCase("laptop")) {
                 //hover on product to see the options
                 homePage.hover(element);
             }
@@ -65,13 +65,13 @@ public class Task2 extends BaseTest {
             addToCart = element.findElement(By.xpath(addToCartSelector)).isDisplayed();
             assertThat("add to compare icon is not displayed", reporter.hackathonReporter(2,
                     "Shopping Experience Test", addToCompareSelector,browser,
-                    width+"X"+height,"laptop",addToCompare), is(true));
+                    width+"X"+height,this.platform,addToCompare), is(true));
             assertThat("add to favorite icon is not displayed", reporter.hackathonReporter(2,
                     "Shopping Experience Test", addToFavoriteSelector,browser,
-                    width+"X"+height,"laptop", addToFavorite), is(true));
+                    width+"X"+height,this.platform, addToFavorite), is(true));
             assertThat("add to cart icon is not displayed", reporter.hackathonReporter(2,
                     "Shopping Experience Test", addToCartSelector,browser,
-                    width+"X"+height,"laptop", addToCart), is(true));
+                    width+"X"+height,this.platform, addToCart), is(true));
         }
     }
 }
