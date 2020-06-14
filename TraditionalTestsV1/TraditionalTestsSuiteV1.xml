@@ -50,7 +50,7 @@
     </test>
     <test name="SmokeTest-Chrome-Mobile">
         <parameter name="URL" value="https://demo.applitools.com/gridHackathonV1.html"/>
-        <parameter name="browser" value="Chrome"/>
+        <parameter name="browser" value="chrome"/>
         <parameter name="width" value="500"/>
         <parameter name="height" value="700"/>
         <parameter name="platform" value="Mobile"/>

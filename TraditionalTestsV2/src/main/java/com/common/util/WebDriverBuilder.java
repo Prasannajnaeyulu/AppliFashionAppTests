@@ -21,6 +21,7 @@ public class WebDriverBuilder {
     private BrowserType browserType;
     private int browserWidth;
     private int browserHeight;
+    private String platform;
     private WebDriver driver;
 
     public WebDriverBuilder(){
@@ -47,6 +48,11 @@ public class WebDriverBuilder {
 
     public WebDriverBuilder setBrowserHeight(int browserHeight){
         this.browserHeight = browserHeight;
+        return this;
+    }
+
+    public WebDriverBuilder setPlatform(String platform){
+        this.platform = platform;
         return this;
     }
 

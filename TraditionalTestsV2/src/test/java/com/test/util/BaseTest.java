@@ -15,17 +15,18 @@ import java.util.concurrent.TimeUnit;
 
 public class BaseTest {
     protected WebDriver driver;
-    protected String browser, URL;
+    protected String browser, URL, platform;
     protected int width, height;
     protected Reporter reporter;
     //Going to create webdriver instance before every test method
-    @Parameters({"browser", "URL", "width", "height"})
+    @Parameters({"browser", "URL", "width", "height", "platform"})
     @BeforeMethod
-    public void setup(String browser, String URL, int width, int height) throws Exception {
+    public void setup(String browser, String URL, int width, int height, String platform) throws Exception {
         this.browser = browser;
         this.URL = URL;
         this.width = width;
         this.height = height;
+        this.platform = platform;
         this.reporter = new Reporter();
         Capabilities capabilities = new DesiredCapabilities();
         ((DesiredCapabilities) capabilities).setAcceptInsecureCerts(true);
