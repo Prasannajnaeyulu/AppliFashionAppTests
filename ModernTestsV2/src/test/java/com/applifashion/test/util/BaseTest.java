@@ -60,7 +60,7 @@ public class BaseTest {
         // Set the configuration object to eyes
         eyes.setConfiguration(config);
         // Navigate to the url we want to test
-        webDriver.get("https://demo.applitools.com/gridHackathonV1.html");
+        webDriver.get("https://demo.applitools.com/gridHackathonV2.html");
         webDriver.manage().timeouts().implicitlyWait(5000, TimeUnit.MILLISECONDS);
     }
 

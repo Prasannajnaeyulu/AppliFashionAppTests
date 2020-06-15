@@ -21,8 +21,7 @@ public class Task3 extends BaseTest {
         softAssert.assertEquals(lsProductsDisplayed.size(), 2);
 
         //Navigate to first shoe from displayed product list and verify its details
-        WebElement firstProduct = lsProductsDisplayed.get(0);
-        WebElement firstShoe = firstProduct.findElement(By.xpath(".//a[@id='product_1']"));
+        WebElement firstShoe = driver.findElement(By.id("product_1"));
         homePage.clickOn(firstShoe);
 
         //Verify Product details

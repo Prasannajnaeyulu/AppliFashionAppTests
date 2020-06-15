@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.applitools.hackathon</groupId>
-    <artifactId>ModernTestsV1</artifactId>
+    <artifactId>ModernTestsV2</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <dependencies>
